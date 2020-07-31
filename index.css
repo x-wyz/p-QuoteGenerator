@@ -49,10 +49,14 @@ h1 {
 
 #new-quote {
 	margin-right: 2em;
+	cursor: pointer;
+	background-color: rgb(232, 169, 49);
+	color: white;
+	transition: background 0.25s;
 }
 
-#new-quote {
-	cursor: pointer;
+#new-quote:hover {
+	background-color: rgb(196, 138, 26);
 }
 
 #new-quote, #tweet-quote {
